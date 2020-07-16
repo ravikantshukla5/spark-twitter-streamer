@@ -1,0 +1,21 @@
+name := "spark-twitter"
+
+version := "0.1"
+
+scalaVersion := "2.11.0"
+
+libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "1.6.3"
+libraryDependencies += "org.apache.spark" % "spark-sql_2.11" % "1.6.3"
+libraryDependencies += "com.typesafe" % "config" % "1.2.1"
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.16"
+libraryDependencies += "org.apache.spark" % "spark-streaming_2.11" % "1.6.3"
+libraryDependencies += "org.apache.spark" % "spark-streaming-twitter_2.11" % "1.6.3"
+libraryDependencies += "org.twitter4j" % "twitter4j-stream" % "4.0.4"
+libraryDependencies += "org.twitter4j" % "twitter4j-core" % "4.0.4"
+libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.5.1"
+libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.5.1" classifier "models"
+libraryDependencies += "com.cybozu.labs" % "langdetect" % "1.1-20120112"
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.16"
+libraryDependencies += "org.apache.kafka" %% "kafka" % "2.1.1"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.9.8"
+libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.9.8"
